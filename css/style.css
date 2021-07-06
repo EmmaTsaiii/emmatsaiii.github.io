@@ -6,6 +6,8 @@ http://www.tooplate.com/view/2082-pure-mix
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
+
 /* Body 
 ------------------------------------- */
 body {
@@ -32,13 +34,13 @@ html {
 h1,h2,h3,h4 {
   font-weight: 400;
   letter-spacing: 0.3rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h1 {
   color: #000;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1.8 rem;
+  font-weight: 400;
 }
 
 h2 {
@@ -54,14 +56,13 @@ h3 {
 
 h4 {
   color: #000;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 h5 {
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 p {
@@ -190,7 +191,7 @@ nav a {
 .brand a {
   color: #333;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   opacity: 1;
   text-decoration: none;
 }
@@ -412,6 +413,8 @@ a.icon {
   background-size: cover;
   background-position: center center;
   text-align: center;
+  padding-top: 65px;
+  padding-bottom: 50px;
 }
 
 #header {
@@ -429,38 +432,38 @@ a.icon {
   padding: 62px 20px 62px 20px;
 }
 
-/* .header-one .header-thumb, */
-.header-two .header-thumb,
-.header-three .header-thumb,
+.header-main .header-thumb,
+.header-FitBuddy .header-thumb,
+.header-Thirsty .header-thumb,
 .header-four .header-thumb,
-.header-five .header-thumb {
+.header-about .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
 
-.header-two,
-.header-three, .header-four,
+.header-FitBuddy,
+.header-Thirsty, .header-four,
 .header-five {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
 }
 
-.header-one {
-  background: url('../images/header-bg.jpg') no-repeat;
+.header-main {
+  background: url('../images/banner_work.jpg') no-repeat;
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
 }
-.header-two {
+.header-FitBuddy {
   background: url('../images/FitBuddy/Banner1chop.png') no-repeat;
 }
-.header-three {
+.header-Thirsty {
   background: url('../images/Thirsty/thirsty_banner.png') no-repeat;
 }
 .header-four {
   background: url('../images/header-four-bg.jpg') no-repeat;
 }
-.header-five {
+.header-about {
   background: url('../images/Thirsty/bram-naus-oqnVnI5ixHg-unsplash.jpg') no-repeat;
 }
 
@@ -846,8 +849,8 @@ footer {
     padding-left: 24px;
   }
 
-  .header-one, .header-two,
-  .header-three, .header-four,
+  .header-one, .header-FitBuddy,
+  .header-Thirsty, .header-four,
   .header-five {
     min-height: 380px;
 	padding-top: 80px !important;
