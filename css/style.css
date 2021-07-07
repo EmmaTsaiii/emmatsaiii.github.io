@@ -33,7 +33,7 @@ html {
 
 h1,h2,h3,h4 {
   font-weight: 400;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   /* text-transform: uppercase; */
 }
 
@@ -41,6 +41,8 @@ h1 {
   color: #000;
   font-size: 1.8 rem;
   font-weight: 400;
+  letter-spacing: 0.3rem;
+  line-height: 50px;
 }
 
 h2 {
@@ -151,6 +153,8 @@ img.animated-gif{
 .nav-container,
 nav {
   overflow: visible;
+  /* position: absolute;
+  left: 20%; */
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -435,14 +439,14 @@ a.icon {
 .header-main .header-thumb,
 .header-FitBuddy .header-thumb,
 .header-Thirsty .header-thumb,
-.header-four .header-thumb,
+.header-nightlights .header-thumb,
 .header-about .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
 
 .header-FitBuddy,
-.header-Thirsty, .header-four,
-.header-five {
+.header-Thirsty, .header-nightlights,
+.header-about {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
@@ -460,8 +464,8 @@ a.icon {
 .header-Thirsty {
   background: url('../images/Thirsty/thirsty_banner.png') no-repeat;
 }
-.header-four {
-  background: url('../images/header-four-bg.jpg') no-repeat;
+.header-nightlights {
+  background: url('../images/nightlights') no-repeat;
 }
 .header-about {
   background: url('../images/Thirsty/bram-naus-oqnVnI5ixHg-unsplash.jpg') no-repeat;
