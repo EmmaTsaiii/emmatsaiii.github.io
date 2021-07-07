@@ -1,12 +1,12 @@
-<svg width="4816" height="2010" viewBox="0 0 4816 2010" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="1978" y="440" width="196" height="374" fill="url(#pattern0)"/>
-<rect x="1776" y="857" width="186" height="369" fill="url(#pattern1)"/>
-<rect x="1984" y="857" width="186" height="369" fill="url(#pattern2)"/>
-<rect x="2192" y="855" width="191" height="373" fill="url(#pattern3)"/>
-<rect x="2192" y="1265" width="191" height="378" fill="url(#pattern4)"/>
-<rect x="2406" y="1264" width="193" height="380" fill="url(#pattern5)"/>
-<rect x="2622" y="1259" width="196" height="390" fill="url(#pattern6)"/>
-<rect x="2841" y="1259" width="198" height="390" fill="url(#pattern7)"/>
+<svg width="4816" height="1777" viewBox="0 0 4816 1777" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="1978" y="142" width="196" height="374" fill="url(#pattern0)"/>
+<rect x="1776" y="559" width="186" height="369" fill="url(#pattern1)"/>
+<rect x="1984" y="559" width="186" height="369" fill="url(#pattern2)"/>
+<rect x="2192" y="557" width="191" height="373" fill="url(#pattern3)"/>
+<rect x="2192" y="967" width="191" height="378" fill="url(#pattern4)"/>
+<rect x="2406" y="966" width="193" height="380" fill="url(#pattern5)"/>
+<rect x="2622" y="961" width="196" height="390" fill="url(#pattern6)"/>
+<rect x="2841" y="961" width="198" height="390" fill="url(#pattern7)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.00179516) scale(0.00283286 0.0014846)"/>
