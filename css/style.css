@@ -5,16 +5,16 @@ Template 2082 Pure Mix
 http://www.tooplate.com/view/2082-pure-mix
 
 */
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /* Body 
 ------------------------------------- */
 body {
 		background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(62, 64, 67);
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
 }
 
@@ -31,48 +31,55 @@ html {
 /* Typography
 ------------------------------------- */
 
-h1,h2,h3,h4 {
-  font-weight: 400;
-  letter-spacing: 0.2rem;
-  /* text-transform: uppercase; */
+h1,h2,h3,h4,h5 {
+  font-weight: 800;
+  letter-spacing: 0.06rem;
 }
 
 h1 {
-  color: #000;
-  font-size: 1.8 rem;
-  font-weight: 400;
-  letter-spacing: 0.3rem;
+  font-size: 3.052rem;
+  /* font-weight: 800; */
+  letter-spacing: 0.2rem;
   line-height: 50px;
 }
 
 h2 {
-  color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.953rem;
 }
 
 h3 {
-  color: #444;
-  font-size: 14px;
-  letter-spacing: 4px;
+  font-size: 2.441rem;
 }
 
 h4 {
-  color: #000;
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 1.563rem;
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+} 
+
+.h3-problem{
+  font-family: 'Inter', sans-serif;
+  color: #6F6F6F;
+  font-size: 2.441rem;
+  line-height: 54px;
   font-weight: 400;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.h5-fitbuddy {
+  color: #06CAA6;
 }
 
 p {
-  color: #777;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 28px;
   word-spacing: 1px;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 
 a {
@@ -153,8 +160,6 @@ img.animated-gif{
 .nav-container,
 nav {
   overflow: visible;
-  /* position: absolute;
-  left: 20%; */
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -169,14 +174,17 @@ nav {
 }
 
 nav a {
-  color: #333333;
+  color: rgb(62, 64, 67);
 }
 
 .navbar {
+  position: absolute;
+  top: 0.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: transparent;
   height: 94px;
   max-height: 94px;
-  margin: 0;
   border-radius: 0;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -193,7 +201,7 @@ nav a {
   letter-spacing: 0.3rem;
 }
 .brand a {
-  color: #333;
+  color: rgb(62, 64, 67);;
   font-size: 24px;
   font-weight: 300;
   opacity: 1;
@@ -318,15 +326,15 @@ a.icon {
 
 .circle i {
   font-size: 36px;
-  color: #111112;
+  color: rgb(62, 64, 67);
 }
 
 .circle.dark {
-  border-color: #292929;
+  border-color: rgb(62, 64, 67);
 }
 
 .circle.dark:before {
-  border-color: transparent transparent transparent #292929;
+  border-color: transparent transparent transparent rgb(62, 64, 67);
 }
 
 .circle.large {
@@ -348,7 +356,7 @@ a.icon {
 }
 
 .circle.large.dark:before {
-  border-color: transparent transparent transparent #292929;
+  border-color: transparent transparent transparent rgb(62, 64, 67);
 }
 
 .circle.inline {
@@ -362,6 +370,12 @@ a.icon {
 }
 
 @media all and (max-width: 767px) {
+  .navbar {
+    left: 0;
+    transform: translate(0, -50%);
+    min-width: 100%;
+  }
+
   .circle.large {
     width: 90px;
     height: 90px;
@@ -387,7 +401,7 @@ a.icon {
   top: 0;
   left: 0;
   z-index: 9999999;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(62, 64, 67, 0.97);
   transition: all 0.6s ease;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
@@ -417,7 +431,7 @@ a.icon {
   background-size: cover;
   background-position: center center;
   text-align: center;
-  padding-top: 65px;
+  padding-top: 130px;
   padding-bottom: 50px;
 }
 
@@ -425,15 +439,14 @@ a.icon {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  text-align: center;
+  text-align: left;
   padding-top: 130px;
   padding-bottom: 100px;
 }
 
 #header .header-thumb {
-  background: #ffffff;
-  border: 10px solid #f9f9f9;
-  padding: 62px 20px 62px 20px;
+  background: transparent;
+  padding: 62px 20px 0px 20px;
 }
 
 .header-main .header-thumb,
@@ -441,28 +454,28 @@ a.icon {
 .header-Thirsty .header-thumb,
 .header-nightlights .header-thumb,
 .header-about .header-thumb {
-  padding: 32px 20px 32px 20px !important;
+  padding: 0px 0px 0px 0px !important;
 }
 
 .header-FitBuddy,
 .header-Thirsty, .header-nightlights,
 .header-about {
-  height: 42vh !important;
-  min-height: 420px;
-  padding-top: 120px !important;
+  height: 60vh !important;
+  min-height:840px;
+  padding-top: 200px !important;
 }
 
 .header-main {
-  background: url('../images/banner_work.jpg') no-repeat;
+  /* background: url('../images/banner_work.jpg') no-repeat; */
   height: 60vh !important;
-  min-height: 520px;
-  padding-top: 150px !important;
+  min-height: 480px;
+  padding-top: 240px !important;
 }
 .header-FitBuddy {
-  background: url('../images/FitBuddy/Banner1chop.png') no-repeat;
+  background: url('../images/FitBuddy/background.png') no-repeat;
 }
 .header-Thirsty {
-  background: url('../images/Thirsty/thirsty_banner.png') no-repeat;
+  background: url('../images/Thirsty/background.png') no-repeat;
 }
 .header-nightlights {
   background: url('../images/nightlights/banner.png') no-repeat;
@@ -473,6 +486,12 @@ a.icon {
 
 /* Portfolio section styles
 /* ========================================== */
+
+/* Y location for the navigation bar */
+.navprofolio{
+  top: 2.7%;
+}
+
 #portfolio {
   text-align: center;
   padding-top: 3rem;
@@ -556,7 +575,7 @@ a.icon {
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  background: #111112;
+  background: rgb(62, 64, 67);
   color: #ffffff;
 }
 
@@ -609,6 +628,12 @@ a.icon {
 
 /* about section styles
 /* ========================================== */
+
+/* Y location for the navigation bar */
+.navabout{
+  top: 2.75%;
+}
+
 #about {
   padding-top: 5rem;
   padding-bottom: 8rem;
@@ -678,8 +703,8 @@ a.icon {
 
 #single-post .blog-comment,
 #single-post .blog-comment-form {
-  margin-top: 62px;
-  margin-bottom: 62px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #single-post .blog-comment h3,
@@ -693,10 +718,6 @@ a.icon {
 
 #single-post .blog-comment .media img {
   padding-right: 46px;
-}
-
-#single-post .blog-comment h4 {
-  font-weight: 700;
 }
 
 #single-post .blog-comment-form .form-control {
@@ -718,6 +739,12 @@ a.icon {
 
 /* contact section styles
 /* ========================================== */
+
+/* Y location for the navigation bar */
+.navcontact{
+  top: 4.6%;
+}
+
 #contact {
   padding-top: 5rem;
   padding-bottom: 0rem;
@@ -759,7 +786,7 @@ a.icon {
 #contact input {height: 50px;}
 
 #contact input[type='submit'] {
-  background: #111112;
+  background: rgb(62, 64, 67);
   color: #ffffff;
   font-size: 15px;
   font-weight: 400;
@@ -783,15 +810,17 @@ a.icon {
   bottom: -50px;
 }
 
-
-
 /* footer section styles
 /* ========================================== */
 footer {
-  background: #141414;
+  background: rgb(62, 62, 62);
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
+}
+
+p.footer{
+  color:#909090;
 }
 
 
@@ -829,7 +858,7 @@ footer {
 
 /* Responsive Mobile styles
 /* ========================================== */
-@media (max-width: 980px) {
+@media (max-width: 991px) {
 
   .intro-inner {top: 30%;}
 
@@ -844,20 +873,28 @@ footer {
   #contact #map-canvas {
     margin-bottom: 60px;
   }
+
+  .header-main, .header-FitBuddy,
+  .header-Thirsty, .header-nightlights,
+  .header-about {
+    min-height: 930px;
+	padding-top: 220px !important;
+  }
+
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .brand {
     padding-left: 24px;
   }
 
-  .header-one, .header-FitBuddy,
-  .header-Thirsty, .header-four,
-  .header-five {
-    min-height: 380px;
-	padding-top: 80px !important;
+  .header-main, .header-FitBuddy,
+  .header-Thirsty, .header-nightlights,
+  .header-about {
+    min-height: 930px;
+	padding-top: 220px !important;
   }
 
   #about .col-md-4,
@@ -870,13 +907,10 @@ footer {
 
 @media (max-width: 700px) {
 
-  h1 {
-    font-size: 1.3rem;
-  }
-  h3 {
+  /* h3 {
     font-size: 13px;
     letter-spacing: 3px;
-  }
+  } */
 
   .filter-wrapper {
     padding: 0px;
@@ -893,6 +927,40 @@ footer {
 	width: 70%;
   }
 
+  .header-main, .header-FitBuddy,
+  .header-Thirsty, .header-nightlights,
+  .header-about {
+    min-height: 930px;
+	padding-top: 220px !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  }
+
+}
+
+/* @media (max-width: 600px){
+  .header-main, .header-FitBuddy,
+  .header-Thirsty, .header-nightlights,
+  .header-about {
+    min-height: 930px;
+	padding-top: 220px !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  }
+} */
+  
+@media (max-width: 500px){
+  .header-main, .header-FitBuddy,
+  .header-Thirsty, .header-nightlights,
+  .header-about {
+    min-height: 930px;
+	padding-top: 220px !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  }
 }
 
 @media (max-width: 450px) {
