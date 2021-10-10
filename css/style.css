@@ -106,15 +106,15 @@ img.animated-gif{
   letter-spacing: 0.06rem;
 }
 
-.h5-fitbuddy {
+.color-fitbuddy {
   color: #06CAA6;
 }
 
-.h5-thirsty {
+.color-thirsty {
   color: #1A90B1;
 }
 
-.h5-nightlight {
+.color-nightlight {
   color: #7D5CD2;
 }
 
@@ -512,7 +512,7 @@ a.icon {
 
 /* Y location for the navigation bar */
 .navabout{
-  top: 3.25%;
+  top: 3.35%;
 }
 
 #about {
@@ -636,7 +636,7 @@ a.icon {
 
 /* Y location for the navigation bar */
 .navcontact{
-  top: 5.3%;
+  top: 5.5%;
 }
 
 #contact {
@@ -773,9 +773,28 @@ p.footer{
 
 /* Responsive Mobile styles
 /* ========================================== */
+@media (max-width: 1249px) {
+  .navblog{
+    top: 2.05%;
+  }
+
+  .navabout{
+    top: 3.1%;
+  }
+
+  .navcontact{
+    top: 5.4%;
+  }
+}
+
+
 @media (max-width: 991px) {
 
   .intro-inner {top: 30%;}
+
+  .navabout{
+    top: 2.65%;
+  }
 
   #contact .col-md-4 {
     padding: 62px 20px 42px 32px;
@@ -808,6 +827,18 @@ p.footer{
     padding-left: 24px;
   }
 
+  .navblog{
+    top: 1.15%;
+  }
+
+  .navabout{
+    top: 1.95%;
+  }
+
+  .navcontact{
+    top: 5%;
+  }
+
   .header-FitBuddy,
   .header-Thirsty, .header-nightlights,
   .header-about {
@@ -828,6 +859,9 @@ p.footer{
 
 
 @media (max-width: 700px) {
+  .navblog{
+    top: 1.2%;
+  }
 
   .header-FitBuddy,
   .header-Thirsty, .header-nightlights,
@@ -843,6 +877,10 @@ p.footer{
 
 
 @media (max-width: 600px){
+  .navblog{
+    top: 1.25%;
+  }
+
   .header-FitBuddy,
   .header-Thirsty, .header-nightlights,
   .header-about {
@@ -856,6 +894,13 @@ p.footer{
   
 
 @media (max-width: 500px){
+  .navblog{
+    top: 1.3%;
+  }
+
+  .navabout{
+    top: 1.5%;
+  }
   
   h1 {
     font-size: 2.441rem;
