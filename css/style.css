@@ -98,7 +98,7 @@ img.animated-gif{
 ------------------------------------- */
 .h3-problem{
   font-family: 'Inter', sans-serif;
-  color: #6F6F6F;
+  color: #909090;
   font-size: 2.441rem;
   line-height: 3.5rem;
   font-weight: 400;
@@ -160,7 +160,45 @@ img.animated-gif{
             transform: scale(1);
     opacity: 0; } }
 
+/* Scroll to top button
+/* ========================================== */
+#back2Top {
+  width: 80px;
+  line-height: 80px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow:
+   0px 3px 10px 0 rgb(62, 64, 67, 0.2),
+   0px 6px 20px 0 rgb(62, 64, 67, 0.2);
+  color: rgb(62, 64, 67);
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
 
+#back2Top:hover {
+  background-color: rgb(62, 64, 67);
+  border-color: transparent;
+  color: #ffffff;
+}
+
+@media all and (max-width: 640px){
+  #back2Top {
+    width: 50px;
+    line-height: 50px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+  }
+}
 
 /* navigation styles
 /* ========================================== */
@@ -569,7 +607,6 @@ a.icon {
   margin-right: 2px;
   margin-left: 2px;
   background-color: #eee;
-  /* border: 2px solid #eee; */
 }
 
 #blog .blog-thumb .btn {
@@ -683,7 +720,6 @@ a.icon {
   background: rgb(62, 64, 67);
   color: #ffffff;
   font-size: 15px;
-  font-weight: 400;
   letter-spacing: 2px;
   transition: all 0.4s ease-in-out;
   margin-top: 10px;
