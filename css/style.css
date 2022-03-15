@@ -114,7 +114,11 @@ img.animated-gif{
 }
 
 .color-fitbuddy {
-  color: #06CAA6;
+  color: #7C92FF;
+}
+
+.color-savebites {
+  color:#45ADA1;
 }
 
 .color-thirsty {
@@ -624,8 +628,13 @@ a.icon {
   padding-top: 240px !important;
 }
 .header-FitBuddy {
-  background-color: #A3DED3;
+  background-color: #7C92FF;
 }
+
+.header-SaveBites {
+  background-color:#BDECE5;
+}
+
 .header-Thirsty {
   background-color: #B6E6F3;
 }
